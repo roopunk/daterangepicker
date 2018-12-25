@@ -1104,7 +1104,7 @@
             $(document)
               .on('mousedown.daterangepicker', this._outsideClickProxy)
               // also support mobile devices
-              .on('touchend.daterangepicker', this._outsideClickProxy)
+              // .on('touchend.daterangepicker', this._outsideClickProxy)
               // also explicitly play nice with Bootstrap dropdowns, which stopPropagation when clicking them
               .on('click.daterangepicker', '[data-toggle=dropdown]', this._outsideClickProxy)
               // and also close when focus changes to outside the picker (eg. tabbing between controls)
